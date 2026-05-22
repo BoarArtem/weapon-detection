@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 28
+names: ['Aggressor', 'Blood', 'Guns', 'Guns perspective', 'Hand', 'Heavy Gun', 'Knife', 'Knife_Deploy', 'Knife_Weapon', 'Long guns', 'Person', 'Pistol', 'Rifle', 'Shotgun', 'Stabbing', 'Victim', 'al', 'guns', 'handgun', 'heavyweapon', 'larga', 'person', 'pistol', 'pistols', 'rifle', 'shotgun', 'violence', 'weapon']
+
+roboflow:
+  workspace: -cqiyb
+  project: weapon-detection-m7qso-1nrlg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/-cqiyb/weapon-detection-m7qso-1nrlg/dataset/1
